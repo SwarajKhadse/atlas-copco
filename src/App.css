@@ -1,7 +1,15 @@
 .App {
   text-align: center;
 }
-
+.homeImg{
+  width: 600px;
+}
+.calculator{
+  margin-top: 200px;
+  /* margin-left: 20px; */
+  position: relative;
+  left: 100px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

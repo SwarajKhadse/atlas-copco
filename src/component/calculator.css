@@ -1,0 +1,35 @@
+.inputValue{
+width:30%;
+margin: auto;
+height: 60px;
+font-size: 25px;
+}
+.calculatorDiv{
+    margin-left: 40px;
+}
+.selectInput{
+    width: 30%;
+    border-top: none;
+}
+.submitButton{
+    width: 20%;
+    height: 35px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 140px;
+    padding-bottom: 4px;
+
+    background-color: cornflowerblue;
+}
+.submitButton:hover{
+    border-radius: 10px;
+}
+.resultSelect{
+    margin-left: 38px;
+}
+.equalSign{
+    font-size: 25px;
+}
