@@ -8,6 +8,7 @@ function Calculator() {
 
   function calculate() {
     let ans = input;
+    // this if else block convert the input type to meter
     if (inputType === "km") ans = ans * 1000;
     else if (inputType === "cm") ans = ans * 0.01;
     else if (inputType === "mm") ans = ans * 0.001;
@@ -17,6 +18,7 @@ function Calculator() {
     else if (inputType === "yd") ans = ans * 0.9144;
     else if (inputType === "m") ans = ans;
 
+    // again then this will finally convert to desired resulttype
     if (resultType === "km") setResult(ans * 0.001);
     else if (resultType === "cm") setResult(ans * 100);
     else if (resultType === "mm") setResult(ans * 1000);
