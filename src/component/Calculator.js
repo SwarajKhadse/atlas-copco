@@ -29,9 +29,7 @@ function Calculator() {
 
   return (
     <>
-      <div className="calculatorDiv"
-      >
-        
+      <div className="calculatorDiv">
         <div>
           <input
             type="number"
@@ -41,12 +39,11 @@ function Calculator() {
               setInput(e.target.value);
             }}
           />
-          <i class="fa-solid fa-equals equalSign" ></i>
-           <input
+          <i class="fa-solid fa-equals equalSign"></i>
+          <input
             type="number"
             placeholder={result}
             className="inputValue  p-3 ms-3"
-            
           />
         </div>
         <select
